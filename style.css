@@ -78,7 +78,7 @@ a {
     max-width: 400px;
 }
 
-button {
+.leftside-info button {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -124,4 +124,76 @@ button {
 .pictures img {
     border-radius: 5px;
     border: 5px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.text {
+    max-width:800px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.testimonial {
+    font-size: 36px;
+    margin-bottom: 0;
+    font-style: italic;
+    
+}
+
+.credit {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to {
+    display: flex;
+    justify-content:center ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.leftside-text {
+    max-width: 500px;
+}
+
+.action {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.action-sub {
+    margin-top: 0;
+}
+
+.sub-call button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border-style: solid;
 }
